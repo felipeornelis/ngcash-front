@@ -20,7 +20,7 @@ export default function HomePage() {
                   <li>
                       <Link
                         href="/"
-                        className="w-full rounded-md px-8 py-4 text-white block bg-[#0d0d0d] border border-[#2b2b2b]"
+                        className="w-full rounded-md px-8 py-3 text-white block border border-[#803dfc] bg-gradient-to-r from-[#7631f5] to-[#7c39f7]"
                       >
                         Overview
                       </Link>
@@ -28,8 +28,8 @@ export default function HomePage() {
 
                     <li>
                       <Link
-                        href="/"
-                        className="w-full rounded-md px-8 py-4 text-white block bg-[#0d0d0d] border border-[#2b2b2b]"
+                        href="/dashboard/transacao"
+                        className="w-full rounded-md px-8 py-3 text-white block bg-[#0d0d0d] border border-[#2b2b2b]"
                       >
                         Realizar transação
                       </Link>
